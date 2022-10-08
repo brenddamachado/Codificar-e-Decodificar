@@ -1,0 +1,64 @@
+body {
+    background-image: url(https://i.gifer.com/origin/1c/1c161055a12c8ca0fbe11a95c606ef17.gif);
+
+}
+
+#cabecalho {
+
+    margin: 30px;
+    margin-bottom: 150px;
+    text-align: center;
+    color: white;
+    line-height: 150%;
+
+}
+
+
+.dedo {
+    margin-top: 70px; 
+    
+}
+#cod-escolhido{
+    width: 180px;
+    height: 35px;
+    border: 3px solid red;
+    
+}
+
+#txt {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    border: 2px solid;
+}
+
+
+main {
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.548);
+    width:670px;
+    height: 810px;
+    margin: 0 auto;
+    border-radius: 60px;
+}
+
+#container img {
+    display: inline-block;
+
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+#resul {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+   border: 3px solid;
+
+}
+
+#button{
+    border: 2px solid blue;
+}
