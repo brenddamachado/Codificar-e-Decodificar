@@ -52,6 +52,7 @@ main {
     height: 120px;
     margin-top: -70px;
     margin-bottom: 20px;
+   
 }
 
 #resul {
@@ -62,6 +63,3 @@ main {
 
 }
 
-#button{
-    border: 2px solid blue;
-}

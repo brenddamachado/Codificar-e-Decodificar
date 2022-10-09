@@ -33,7 +33,7 @@
 
 
         <select name="escolha-cod" id="cod-escolhido">
-            <option value="select" id="opção-selecione" disabled selected>Selecione</option>
+            <option value="select" id="opção-selecione" disabled selected>Selecione  a Criptografia</option>
             <option value="cifraCesar" id="opção-cifra">Cifra de César</option>
             <option value="base.64" id="opção-base">Base64</option>
         </select>
@@ -41,9 +41,10 @@
 
 
         <div id="valor">
-            <h4>Escolha o encremento:</h3>
+            <h4>Escolha o incremento:</h3>
                 <lable id="lable-passo" class="lable-msg"> </lable>
-                <input id="passo" type="number" class="passo" min=1 max=26 placeholder="1-25">
+                <input id="passo" type="number" class="passo" min=1 max=25 placeholder="1-25">
+
 
         </div>
 
@@ -57,9 +58,6 @@
         </div>
         <br>
 
-
-        <br><br>
-
         <input type="text" id="txt" placeholder="Escreva aqui">
         <br>
         <h3> Resultado </h3>
@@ -71,6 +69,7 @@
             <button type="submit" class="resul" id="button"> <b> Gerar Resultado</b> </button>
         </div>
 
+    
 
 
         <!-- final do corpo do site -->
