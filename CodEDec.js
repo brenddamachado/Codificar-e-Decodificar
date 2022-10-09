@@ -1,0 +1,7 @@
+var seletor = document.querySelector("sele")
+var addContainer = document.getElementById("valor")
+var texto = document.getElementById("txt")
+var txtResultado = document.getElementById("resul")
+var radioCode = document.getElementById("codi")
+var radioDecode = document.getElementById("decodi")
+var btnCodificar = document.getElementById("resul")
