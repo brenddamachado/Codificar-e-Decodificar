@@ -6,7 +6,7 @@ var radioCode = document.getElementById("codi")
 var radioDecode = document.getElementById("decodi")
 var btnCodificar = document.getElementById("button")
 
-// aparecer o encremento somente quando o cifra for escolhido.
+// aparecer o incremento somente quando o cifra for escolhido.
 seletor.addEventListener("change", function(){
     
     if (event.target.value == "cifraCesar") { 
@@ -41,7 +41,7 @@ var passo = document.querySelector("#passo")
 
 btnCodificar.addEventListener("click", function() {
     
-    if(radioCode.c && seletor.value == "cifraCesar"){
+    if(radioCode.checked && seletor.value == "cifraCesar"){
         txtResultado.value = cifra(parseInt(passo.value), texto.value)
       //codificar cifra//
     }else if(radioCode.checked && seletor.value == "base.64"){
@@ -115,5 +115,7 @@ function decifra (passo, texto){
     function decodificandoABase64(texto) {
         return atob(texto);
     }
+
+
 
 
