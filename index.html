@@ -29,21 +29,13 @@
         <!-- gif do dedo -->
         <div class="dedo"><img src="img/dedo apontando pra baixo.gif" alt=""> </div>
 
-        <div class="cod">
+        
             <select name="codigo" id="cod-escolhido">
                 <option value="sele" id="selecione" disabled selected> Selecione uma opção </option>
-                <option value="cifraC" id="CifraC">Cifra de César</option>
+                <option value="cifraCe" id="CifraC">Cifra de César</option>
                 <option value="base64" id="base64">Base.64</option>
             </select>
-        </div>
-
-       
-
-        <div class="cod">
-            <input type="radio" name="r1" id="codi" value="codi">Codificar
-            <input type="radio" name="r1" id="decodi" value="decodi">Decodifica
-        </div>
-        <br>
+        
 
         <div id="valor">
             <h4>Escolha o encremento:</h3>
@@ -55,26 +47,36 @@
 
 
 
+
+        <div class="opcao">
+            <input type="radio" name="r1" id="codi" value="codi">Codificar
+            <input type="radio" name="r1" id="decodi" value="decodi">Decodifica
+        </div>
+        <br>
+
+
         <br><br>
 
         <input type="text" id="txt" placeholder="Escreva aqui">
         <br>
         <h3> Resultado </h3>
 
-        <input type="text" id="resul" >
+        <input type="text" id="resul" placeholder="Resultado...">
         <br><br>
 
         <div class="botao">
-            <button id="button" type="submit" itemid="resul"> <b> Gerar Resultado</b> </button>
+            <button  type="submit" class="resul" id="button"> <b> Gerar Resultado</b> </button>
         </div>
-    </main>
+
+       
 
     <!-- final do corpo do site -->
-    <script src="CodEDec.js"></script>
 
     <footer>
-        
+
     </footer>
+
+    <script src="CodEDec.js">  </script>
 </body>
 
 </html>
