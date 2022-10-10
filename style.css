@@ -7,9 +7,11 @@ body {
 }
 
 #cabecalho {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Silkscreen', cursive;
     margin-bottom: 100px;
     text-align: center;
-    color: white;
+    color: red;
     line-height: 140%;
 }
 
@@ -42,7 +44,7 @@ main {
     text-align: center;
     background-color: rgba(211, 211, 211, 0.548);
     width: 670px;
-    height: 900px;
+    height: 920px;
     margin: 0 auto;
     border-radius: 60px;
 }
