@@ -69,92 +69,175 @@ main {
 @media only screen and (max-width: 1800px) {
 
     body {
-        background-size: auto 110%;
+        background-size: auto 120%;
         background-attachment: fixed, scroll;
     }
-
-
-    select {
-
-        width: 42%;
-        font-size: 23px;
-
-
-    }
-
-    #button {
-
-        width: 30%;
-        font-size: 22px;
-
-    }
-
-    .passo {
-        padding: 3px;
-        width: 30%;
-        font-size: 22px;
-    }
-
-    h4 {
-        font-size: 25px;
-    }
-
-    .opcao {
-
-        font-size: 30px;
-    }
-
-    #txt {
-        font-size: 20px;
-    }
-
-    #resul {
-        font-size: 20px;
-    }
-
-    h3 {
-        font-size: 25px;
-    }
-
-    #cabecalho {
-        font-size: 22px;
-    }
-    main{
-        height: 920px;
-    }
-    
 }
 
-
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1440px) { 
 
 
     select {
-        width: 30%;
-        font-size: 15px;
 
+        width: 20%;
+        font-size: 12px;
 
+        transition: all 0.5s ease-in-out;
     }
+
 
     #button {
 
-        width: 70%;
+        width: 50%;
         font-size: 12px;
 
+        transition: all 0.5s ease-in-out;
     }
 
     .passo {
         padding: 2px;
         width: 20%;
+        transition: all 0.5s ease-in-out;
     }
-    #button {
 
-        width: 25%;
-        font-size: 19px;
-
-    }
     
 
+}
 
+@media only screen and (max-width: 975px) {
+
+    body {
+        background-size: auto 120%;
+        background-attachment: fixed, scroll;
+    }
+    
+    #cabecalho {
+        font-size: 150%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .container {
+
+        font-size: 100%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    select {
+    
+        height: 35px;
+        width: 50%;
+        display: grid;
+        grid-column: auto;
+        margin: auto;
+        margin-top: 1%;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #button {
+
+        height: 32px;
+        width: 60%;
+        display: grid;
+        grid-column: auto;
+        margin: auto;
+        margin-top: 2%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        text-align: center;
+        font-size: 11px;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    .txt {
+        margin-top: 2%;
+        transition: all 0.5s ease-in-out;
+        
+    }
+
+    ::placeholder, footer{
+        font-size: 10px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .passo {
+        padding: 2px;
+        width: 20%;
+        transition: all 0.5s ease-in-out;
+    }
+
+}
+
+@media only screen and (max-width: 501px) {
+
+    body {
+        background-size: auto 120%;
+        background-attachment: fixed, scroll;
+    }
+
+    #cabecalho {
+        font-size: 170%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .container {
+
+        font-size: 100%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    select {
+    
+        height: 35px;
+        width: 50%;
+        display: grid;
+        grid-column: auto;
+        margin: auto;
+        margin-top: 1%;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .opcao {
+
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 14px;
+    }
+
+    #button {
+
+        height: 32px;
+        width: 70%;
+        text-align: center;
+        display: grid;
+        grid-column: auto;
+        margin: auto;
+        margin-top: 2%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-size: 11px;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    .txt {
+        margin-top: 2%;
+        transition: all 0.5s ease-in-out;
+        
+    }
+
+    ::placeholder, footer{
+        font-size: 10px;
+        transition: all 0.5s ease-in-out;
+    } 
+
+    .passo {
+        padding: 2px;
+        width: 20%;
+        transition: all 0.5s ease-in-out;
+    }
 
 }

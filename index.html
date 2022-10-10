@@ -20,56 +20,58 @@
     <!-- corpo do site -->
     <main>
 
-        <!-- mascara -->
-        <div id="mascara">
-            <img src="img/anoni.jpg" alt="">
+        <div class="container"> 
+            <!-- mascara -->
+            <div id="mascara">
+                <img src="img/anoni.jpg" alt="">
+            </div>
+            <br>
+
+            <!-- gif do dedo -->
+            <div class="dedo"><img src="img/dedo apontando pra baixo.gif" alt=""> </div>
+
+
+
+
+            <select name="escolha-cod" id="cod-escolhido">
+                <option value="select" id="opção-selecione" disabled selected>Selecione a Criptografia</option>
+                <option value="cifraCesar" id="opção-cifra">Cifra de César</option>
+                <option value="base.64" id="opção-base">Base64</option>
+            </select>
+
+
+
+            <div id="valor">
+                <h4>Escolha o incremento:</h3>
+                    <lable id="lable-passo" class="lable-msg"> </lable>
+                    <input id="passo" type="number" class="passo" min=1 max=25 placeholder="1-25">
+
+
+            </div>
+
+
+
+
+
+            <div class="opcao">
+                <input type="radio" name="r1" id="codi" value="codi">Codificar
+                <input type="radio" name="r1" id="decodi" value="decodi">Decodifica
+            </div>
+            <br>
+
+            <input type="text" id="txt" placeholder="Escreva aqui">
+            <br>
+            <h3> Resultado </h3>
+
+            <input type="text" id="resul" placeholder="Resultado...">
+            <br><br>
+
+            <div class="botao">
+                <button type="submit" class="resul" id="button"> <b> Gerar Resultado</b> </button>
+            </div>
         </div>
-        <br>
-
-        <!-- gif do dedo -->
-        <div class="dedo"><img src="img/dedo apontando pra baixo.gif" alt=""> </div>
 
 
-
-
-        <select name="escolha-cod" id="cod-escolhido">
-            <option value="select" id="opção-selecione" disabled selected>Selecione  a Criptografia</option>
-            <option value="cifraCesar" id="opção-cifra">Cifra de César</option>
-            <option value="base.64" id="opção-base">Base64</option>
-        </select>
-
-
-
-        <div id="valor">
-            <h4>Escolha o incremento:</h3>
-                <lable id="lable-passo" class="lable-msg"> </lable>
-                <input id="passo" type="number" class="passo" min=1 max=25 placeholder="1-25">
-
-
-        </div>
-
-
-
-
-
-        <div class="opcao">
-            <input type="radio" name="r1" id="codi" value="codi">Codificar
-            <input type="radio" name="r1" id="decodi" value="decodi">Decodifica
-        </div>
-        <br>
-
-        <input type="text" id="txt" placeholder="Escreva aqui">
-        <br>
-        <h3> Resultado </h3>
-
-        <input type="text" id="resul" placeholder="Resultado...">
-        <br><br>
-
-        <div class="botao">
-            <button type="submit" class="resul" id="button"> <b> Gerar Resultado</b> </button>
-        </div>
-
-    
 
 
         <!-- final do corpo do site -->
