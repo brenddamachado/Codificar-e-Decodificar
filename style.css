@@ -14,17 +14,18 @@ body {
 }
 
 
-#cod-escolhido{
+#cod-escolhido {
     height: 30px;
     border: 4px solid red;
     margin-bottom: 30px;
 }
 
-#valor{
+#valor {
     display: none;
 
 }
-.opcao{
+
+.opcao {
     margin-top: 40px;
 
 }
@@ -40,7 +41,7 @@ body {
 main {
     text-align: center;
     background-color: rgba(211, 211, 211, 0.548);
-    width:670px;
+    width: 670px;
     height: 870px;
     margin: 0 auto;
     border-radius: 60px;
@@ -52,35 +53,108 @@ main {
     height: 120px;
     margin-top: -70px;
     margin-bottom: 20px;
-   
+
 }
 
 #resul {
     width: 300px;
     height: 150px;
     border-radius: 20px;
-   border: 3px solid;
+    border: 3px solid;
 
 }
 
 /**RESPONSIVO**/
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1800px) {
 
-}
+    body {
+        background-size: auto 110%;
+        background-attachment: fixed, scroll;
+    }
 
-@media only screen and (min-width: 600px){
 
-}
+    select {
 
-@media only screen and (min-width: 768px){
+        width: 42%;
+        font-size: 23px;
 
-}
 
-@media only screen and (min-width: 992px){
+    }
+
+    #button {
+
+        width: 30%;
+        font-size: 22px;
+
+    }
+
+    .passo {
+        padding: 3px;
+        width: 30%;
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    .opcao {
+
+        font-size: 30px;
+    }
+
+    #txt {
+        font-size: 20px;
+    }
+
+    #resul {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    #cabecalho {
+        font-size: 22px;
+    }
+    main{
+        height: 920px;
+    }
     
 }
 
-@media only screen and (min-width:1200px){
+
+@media only screen and (max-width: 1440px) {
+
+
+    select {
+        width: 30%;
+        font-size: 15px;
+
+
+    }
+
+    #button {
+
+        width: 70%;
+        font-size: 12px;
+
+    }
+
+    .passo {
+        padding: 2px;
+        width: 20%;
+    }
+    #button {
+
+        width: 25%;
+        font-size: 19px;
+
+    }
     
+
+
+
 }
